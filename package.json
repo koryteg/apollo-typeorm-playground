@@ -1,0 +1,28 @@
+{
+  "name": "apollo-typeorm-playground",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "ts-node-dev src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "3.3.0",
+    "typescript": "3.3.3333",
+    "@types/node": "^12.7.2",
+    "apollo-server": "^2.8.1",
+    "graphql": "^14.4.2",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.18",
+    "pg": "^7.3.0"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.42",
+    "tsc-watch": "^2.4.0"
+  }
+}
